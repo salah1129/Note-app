@@ -1,0 +1,72 @@
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.notes textarea {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.notes textarea:focus {
+    outline: none;
+    border-color: rgb(94, 94, 240);
+    box-shadow: 0 0 8px rgba(94, 94, 240, 0.5);
+}
+.add {
+    background-color: rgb(94, 94, 240);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    user-select: none;
+    transition: 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}
+
+.add:hover {
+    transform: scale(1.1);
+    background-color: rgb(140, 140, 242);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3, 169, 169);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.8;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 60px 0 30px 0;
+    color: aliceblue;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+    color: red;
+    margin-bottom: 30px;
+}
